@@ -1,0 +1,13 @@
+numbers=[3,5,7,9,10.5]
+print(numbers)
+numbers.append('Python')
+count=len(numbers)-1
+print(len(numbers))
+#a=int(count)
+#print(count)
+print(numbers)
+print(numbers[0])
+print(numbers[count])
+print(numbers[1:4])
+numbers.remove('Python')
+print(numbers)
